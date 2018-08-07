@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>seeddb.bin to .dat converter</title>
+	<meta http-equiv="content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="description" content="This web app allows you to create valid .dat seed files for 3DS FBI from a seeddb.bin file."/>
+	<meta name="keywords" content="seeddb, converter, 3ds, seed, seeds, dat, online"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<link rel="shortcut icon" href="./favicon.png"/>
+	<link type="text/css" rel="stylesheet" href="./seeddb-converter.css" media="all"/>
+	<script type="text/javascript" src="./database.js"></script>
+	<script type="text/javascript" src="./seeddb-converter.js"></script>
+</head>
+<body>
+
+<!-- HEADER -->
+<h1>seeddb.bin to .dat converter</h1>
+<div id="container">
+	<div id="container">
+		<div style="text-align:center">
+			<label for="input-file">Open seeddb.bin here: </label><input type="file" id="input-file" onchange="readFile(this.files[0])"/>
+		</div>
+		<hr/>
+		<div style="text-align:center; color:#888">.dat files must be stored at sd:/fbi/seed</div>
+		<table id="table"></table>
+	</div>
+</div>
+<footer>
+	by <a href="https://www.marcrobledo.com" target="_blank">Marc Robledo</a> | see sourcecode at <a href="https://github.com/marcrobledo/seeddb-converter" target="_blank">GitHub</a>
+</footer>
+
+
+
+</body></html>
