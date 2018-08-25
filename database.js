@@ -895,5 +895,13 @@ const DATABASE={
 0x00186b00:'CTR-N-JBEK 패밀리 비치발리볼 3D',
 0x0016bf00:'CTR-N-KPMK 퍼즐앤드래곤 Z + 퍼즐앤드래곤 슈퍼 마리오브라더스 에디션 체험판',
 0x00173500:'CTR-N-QB6A 포켓몬스터 금',
-0x00173600:'CTR-N-QB7A 포켓몬스터 은'
+0x00173600:'CTR-N-QB7A 포켓몬스터 은',
+
+
+/* 25th aug update */
+0x0012e800:'CTR-N-JWWE Wizdom',
+0x00160200:'CTR-N-BBME Goosebumps: The Game',
+0x001b5e00:'CTR-N-KCUE Candy, Please!',
+0x001bfc00:'CTR-N-A9AJ METROID Samus Returns (일본어)',
+0x001c7b00:'CTR-N-KT6E Kid Tripp'
 };

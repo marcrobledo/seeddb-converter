@@ -1,4 +1,4 @@
-/* seeddbconv.js v20180807 - Marc Robledo 2018 - http://www.marcrobledo.com/license */
+/* seeddbconv.js v20180825 - Marc Robledo 2018 - http://www.marcrobledo.com/license */
 
 /*
 TYPES
@@ -100,6 +100,11 @@ function parseFile(arr){
 			type+=arr[seek+i+4] << i*8;
 		}
 		seek+=8;
+
+		/* add temporary game to database if not found */
+		if(!DATABASE[gameId])
+			DATABASE[gameId]='???-?-???? 0x'+toHex(gameId)
+
 		seeds.push({
 			type:type,
 			gameId:gameId,
